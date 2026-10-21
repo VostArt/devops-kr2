@@ -38,4 +38,4 @@ def whoami():
     scheme = request.headers.get("X-Forwarded-Proto", "none")
     client = request.headers.get("X-Real-IP", "none")
     host = request.headers.get("Host", "none")
-    return f"scheme: {scheme}\nclient: {client}\nhost: {host}\n"
+    return f"scheme: {scheme}\nclient: {client}\nhost: {host}\n"# cache test
